@@ -1,0 +1,29 @@
+name: Validate zonefile syntax
+on:
+  push: {}
+  pull_request: {}
+
+jobs:
+  run_kzonecheck:
+    name: Run kzonecheck
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v2
+
+      - name: Show local files
+        run: |
+          tree .
+
+      - name: Pull knot image
+        run: |
+          docker pull docker.io/cznic/knot
+
+      - name: Run kzonecheck
+        run: |
+          set -eu
+          for zone in *.zone; do
+            echo "=== $zone ==="
+            docker run --rm -v $PWD:/zonefiles docker.io/cznic/knot \
+              kzonecheck -v /zonefiles/$zone
+          done
