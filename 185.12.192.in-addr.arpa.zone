@@ -1,0 +1,23 @@
+$ORIGIN 185.12.192.in-addr.arpa.
+
+@ 3600 IN SOA ns1.massopen.cloud mocops-list.bu.edu 2021043000 86400 3600 3600000 3600
+@ 3600 IN NS ns1.massopen.cloud
+@ 3600 IN NS ns2.massopen.cloud
+103 0 IN PTR provisioner.cnv.massopen.cloud.
+104 0 IN PTR api.zero.massopen.cloud.
+105 0 IN PTR lb.zero.massopen.cloud.
+106 0 IN PTR ns1.zero.massopen.cloud.
+110 0 IN PTR os-ctrl-0.zero.massopen.cloud.
+111 0 IN PTR os-ctrl-1.zero.massopen.cloud.
+112 0 IN PTR os-ctrl-2.zero.massopen.cloud.
+115 0 IN PTR os-wrk-0.zero.massopen.cloud.
+116 0 IN PTR os-wrk-1.zero.massopen.cloud.
+117 0 IN PTR os-wrk-2.zero.massopen.cloud.
+130 0 IN PTR os-sto-0.zero.massopen.cloud.
+131 0 IN PTR os-sto-1.zero.massopen.cloud.
+132 0 IN PTR os-sto-2.zero.massopen.cloud.
+251 0 IN PTR kumo-hil-client.massopen.cloud.
+252 0 IN PTR kumo-ipmi-gw.massopen.cloud.
+254 0 IN PTR kzn-e.massopen.cloud.
+ns1.massopen.cloud 3600 IN A 34.204.145.35
+ns2.massopen.cloud 3600 IN A 129.10.5.41

@@ -1,0 +1,7 @@
+$ORIGIN 26.31.128.in-addr.arpa.
+
+@ 3600 IN SOA ns1.massopen.cloud mocops-list.bu.edu 2021043000 86400 3600 3600000 3600
+@ 3600 IN NS ns1.massopen.cloud
+@ 3600 IN NS ns2.massopen.cloud
+ns1.massopen.cloud 3600 IN A 34.204.145.35
+ns2.massopen.cloud 3600 IN A 129.10.5.41
