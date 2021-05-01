@@ -178,3 +178,4 @@ zabbix.massopen.cloud.                    120   A     128.31.28.9
 zabbix.massopen.cloud.                    120   A     129.10.5.132
 
 $INCLUDE clusters/zero.massopen.cloud.inc
+$INCLUDE clusters/moc-infra.massopen.cloud.inc
