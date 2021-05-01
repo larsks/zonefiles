@@ -3,7 +3,7 @@ $ORIGIN massopen.cloud.
 @                           120   SOA   (
 					ns1.massopen.cloud.
 					mopcops-list.bu.edu.
-					2021041603
+					2021050100
 					21600
 					3600
 					1209601
@@ -22,11 +22,8 @@ $ORIGIN massopen.cloud.
 ns1.massopen.cloud.                       120   A     34.204.145.35
 ns2.massopen.cloud.                       120   A     129.10.5.41
 
-_dmarc.massopen.cloud.                    120   TXT   "v=DMARC1; p=reject; sp=reject; rua=mailto:alerts@lists.massopen.cloud; ruf=mailto:alerts@lists.massopen.cloud; rf=afrf; pct=100; ri=86400"
-default._domainkey.massopen.cloud.        120   TXT   "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC07xVstuEiBsoEfz4DuXPjkL3a8TXNa7oI+a5BhI4FNjhdRx8st82Xatnsl1PA/Nb24dp2XmdI/AN6j6Ldj9IS28OwqxBVlFHRqg7FnZhjAbPv6T+3VDDjc4DdvRPh27Kv1NRuNQ/Qo/zQnq6ZvjMqtnoWARyPrNu7c3y3CcpCvQIDAQAB"
-_github-challenge-cci-moc.massopen.cloud. 120   TXT   "68ee7d8f37"
-acmetest.massopen.cloud.                  86400 NS    acmetest.massopen.cloud.
 acmetest.massopen.cloud.                  120   A     129.10.5.57
+acmetest.massopen.cloud.                  86400 NS    acmetest.massopen.cloud.
 adjutant.massopen.cloud.                  120   CNAME sso.massopen.cloud.
 aio.massopen.cloud.                       120   A     128.197.41.159
 autoconfig.massopen.cloud.                120   CNAME mail.massopen.cloud.
@@ -34,11 +31,14 @@ autodiscover.massopen.cloud.              120   CNAME mail.massopen.cloud.
 be.massopen.cloud.                        86400 NS    ns1.osh.massopen.cloud.
 be.massopen.cloud.                        86400 NS    ns2.osh.massopen.cloud.
 chat.massopen.cloud.                      120   CNAME chat.infra.massopen.cloud.
-provisioner.cnv.massopen.cloud.           120   A     192.12.185.103
 cnv-dhcp1.massopen.cloud.                 120   A     129.10.5.55
 cnv-dhcp2.massopen.cloud.                 120   A     129.10.5.56
 curator.massopen.cloud.                   86400 NS    cnv-dhcp1.massopen.cloud.
 curator.massopen.cloud.                   86400 NS    cnv-dhcp2.massopen.cloud.
+default._domainkey.lists.massopen.cloud.  120   TXT   "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC07xVstuEiBsoEfz4DuXPjkL3a8TXNa7oI+a5BhI4FNjhdRx8st82Xatnsl1PA/Nb24dp2XmdI/AN6j6Ldj9IS28OwqxBVlFHRqg7FnZhjAbPv6T+3VDDjc4DdvRPh27Kv1NRuNQ/Qo/zQnq6ZvjMqtnoWARyPrNu7c3y3CcpCvQIDAQAB"
+default._domainkey.massopen.cloud.        120   TXT   "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC07xVstuEiBsoEfz4DuXPjkL3a8TXNa7oI+a5BhI4FNjhdRx8st82Xatnsl1PA/Nb24dp2XmdI/AN6j6Ldj9IS28OwqxBVlFHRqg7FnZhjAbPv6T+3VDDjc4DdvRPh27Kv1NRuNQ/Qo/zQnq6ZvjMqtnoWARyPrNu7c3y3CcpCvQIDAQAB"
+_dmarc.lists.massopen.cloud.              120   TXT   "v=DMARC1; p=reject; sp=reject; rua=mailto:alerts@lists.massopen.cloud; ruf=mailto:alerts@lists.massopen.cloud; rf=afrf; pct=100; ri=86400"
+_dmarc.massopen.cloud.                    120   TXT   "v=DMARC1; p=reject; sp=reject; rua=mailto:alerts@lists.massopen.cloud; ruf=mailto:alerts@lists.massopen.cloud; rf=afrf; pct=100; ri=86400"
 dns.massopen.cloud.                       120   A     129.10.5.119
 doc.massopen.cloud.                       120   CNAME readthedocs.io.
 docs.massopen.cloud.                      120   CNAME readthedocs.io.
@@ -60,68 +60,68 @@ esi-controller-1.massopen.cloud.          120   A     129.10.5.142
 esi-controller-2.massopen.cloud.          120   A     129.10.5.143
 esi-undercloud.massopen.cloud.            120   A     129.10.5.140
 esivirt.massopen.cloud.                   120   A     129.10.5.145
-freeipa.massopen.cloud.                   120   A     129.10.5.116
+freeipa2.infra.massopen.cloud.            120   A     128.31.28.14
 freeipa2.massopen.cloud.                  120   A     128.31.28.14
+freeipa.infra.massopen.cloud.             120   A     129.10.5.116
+freeipa.massopen.cloud.                   120   A     129.10.5.116
 freenas.massopen.cloud.                   120   A     10.192.0.18
-help.massopen.cloud.                      0     CNAME osticket.massopen.cloud.
+_github-challenge-cci-moc.massopen.cloud. 120   TXT   "68ee7d8f37"
+grafana.promtest.massopen.cloud.          120   CNAME promtest.massopen.cloud.
 helpdesk.massopen.cloud.                  0     CNAME osticket.massopen.cloud.
 helpdeskvm.massopen.cloud.                120   A     129.10.5.120
-hil.massopen.cloud.                       86400 NS    ns2.massopen.cloud.
+help.massopen.cloud.                      0     CNAME osticket.massopen.cloud.
 hil.massopen.cloud.                       86400 NS    maas.massopen.cloud.
+hil.massopen.cloud.                       86400 NS    ns2.massopen.cloud.
 hotcrp.massopen.cloud.                    120   A     128.31.25.9
-i.massopen.cloud.                         120   A     128.31.28.10
-i.massopen.cloud.                         120   A     129.10.5.105
 i1.massopen.cloud.                        120   A     129.10.5.105
 i2.massopen.cloud.                        120   A     128.31.28.10
+i.massopen.cloud.                         120   A     128.31.28.10
+i.massopen.cloud.                         120   A     129.10.5.105
 info.massopen.cloud.                      0     CNAME massopen.cloud.
-infra.massopen.cloud.                     86400 NS    freeipa.infra.massopen.cloud.
 infra.massopen.cloud.                     86400 NS    freeipa2.infra.massopen.cloud.
-freeipa.infra.massopen.cloud.             120   A     129.10.5.116
-freeipa2.infra.massopen.cloud.            120   A     128.31.28.14
-k.massopen.cloud.                         120   CNAME kaizen.massopen.cloud.
-kaizen.massopen.cloud.                    120   A     129.10.5.100
+infra.massopen.cloud.                     86400 NS    freeipa.infra.massopen.cloud.
 kaizenbm.massopen.cloud.                  120   A     129.10.5.4
+kaizen.massopen.cloud.                    120   A     129.10.5.100
 kaizenold.massopen.cloud.                 120   A     129.10.5.50
-kumo-h.massopen.cloud.                    0     CNAME kumo-hil-client.massopen.cloud.
+k.massopen.cloud.                         120   CNAME kaizen.massopen.cloud.
 kumo-hil-client.massopen.cloud.           120   A     192.12.185.251
+kumo-h.massopen.cloud.                    0     CNAME kumo-hil-client.massopen.cloud.
 kumo-ipmi-gw.massopen.cloud.              120   A     192.12.185.252
-kzn.massopen.cloud.                       120   CNAME kaizen.massopen.cloud.
 kzn-e.massopen.cloud.                     120   A     192.12.185.254
-kzn-h.massopen.cloud.                     120   A     129.10.5.48
 kzn-hil.massopen.cloud.                   120   A     129.10.5.127
+kzn-h.massopen.cloud.                     120   A     129.10.5.48
+kzn.massopen.cloud.                       120   CNAME kaizen.massopen.cloud.
 kzn-nagios.massopen.cloud.                0     CNAME kznrepos.massopen.cloud.
 kzn-ovpn.massopen.cloud.                  120   A     129.10.5.128
 kzn-repos.massopen.cloud.                 0     CNAME kznrepos.massopen.cloud.
+kznrepos.massopen.cloud.                  120   A     129.10.5.52
+kznrgw1.massopen.cloud.                   120   A     128.31.24.15
+kznrgw2.massopen.cloud.                   120   A     128.31.24.16
 kzn-rtr.massopen.cloud.                   120   A     129.10.5.106
 kzn-s.massopen.cloud.                     120   A     129.10.5.39
 kzn-ssh.massopen.cloud.                   120   A     129.10.5.107
 kzn-swift.massopen.cloud.                 120   A     128.31.24.18
-kznrepos.massopen.cloud.                  120   A     129.10.5.52
-kznrgw1.massopen.cloud.                   120   A     128.31.24.15
-kznrgw2.massopen.cloud.                   120   A     128.31.24.16
 kznwin.massopen.cloud.                    120   A     128.31.27.86
+lists.massopen.cloud.                     120   A     34.204.145.35
 lists.massopen.cloud.                     120   MX    10 mail.massopen.cloud.
 lists.massopen.cloud.                     120   TXT   "v=spf1 include:spf.massopen.cloud include:spf.protection.outlook.com ~all"
-lists.massopen.cloud.                     120   A     34.204.145.35
-_dmarc.lists.massopen.cloud.              120   TXT   "v=DMARC1; p=reject; sp=reject; rua=mailto:alerts@lists.massopen.cloud; ruf=mailto:alerts@lists.massopen.cloud; rf=afrf; pct=100; ri=86400"
-default._domainkey.lists.massopen.cloud.  120   TXT   "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC07xVstuEiBsoEfz4DuXPjkL3a8TXNa7oI+a5BhI4FNjhdRx8st82Xatnsl1PA/Nb24dp2XmdI/AN6j6Ldj9IS28OwqxBVlFHRqg7FnZhjAbPv6T+3VDDjc4DdvRPh27Kv1NRuNQ/Qo/zQnq6ZvjMqtnoWARyPrNu7c3y3CcpCvQIDAQAB"
-maas.massopen.cloud.                      86400 NS    ns2.massopen.cloud.
-maas.massopen.cloud.                      86400 NS    maas.massopen.cloud.
 maas.massopen.cloud.                      120   A     128.31.28.16
-mail.massopen.cloud.                      120   A     34.204.145.35
+maas.massopen.cloud.                      86400 NS    maas.massopen.cloud.
+maas.massopen.cloud.                      86400 NS    ns2.massopen.cloud.
 mailman.massopen.cloud.                   0     CNAME mail.massopen.cloud.
+mail.massopen.cloud.                      120   A     34.204.145.35
+mochat.massopen.cloud.                    120   A     129.10.5.108
 moc-infra.massopen.cloud.                 86400 NS    cnv-dhcp1.massopen.cloud.
 moc-infra.massopen.cloud.                 86400 NS    cnv-dhcp2.massopen.cloud.
-mochat.massopen.cloud.                    120   A     129.10.5.108
 mondata.massopen.cloud.                   120   CNAME mondata.infra.massopen.cloud.
+ns1.osh.massopen.cloud.                   120   A     128.31.24.19
+ns2.osh.massopen.cloud.                   120   A     129.10.5.40
 ocp.massopen.cloud.                       86400 NS    cnv-dhcp1.massopen.cloud.
 ocp.massopen.cloud.                       86400 NS    cnv-dhcp2.massopen.cloud.
 onboarding.massopen.cloud.                120   CNAME sso.massopen.cloud.
 openshift.massopen.cloud.                 120   A     128.31.24.216
 osh.massopen.cloud.                       86400 NS    ns1.osh.massopen.cloud.
 osh.massopen.cloud.                       86400 NS    ns2.osh.massopen.cloud.
-ns1.osh.massopen.cloud.                   120   A     128.31.24.19
-ns2.osh.massopen.cloud.                   120   A     129.10.5.40
 osticket.massopen.cloud.                  120   A     129.10.5.117
 ov1.massopen.cloud.                       120   A     129.10.5.101
 ov2.massopen.cloud.                       120   A     129.10.5.102
@@ -130,16 +130,15 @@ ovirt.massopen.cloud.                     120   A     129.10.5.104
 p9con.massopen.cloud.                     120   A     129.10.5.138
 pov.massopen.cloud.                       120   A     128.197.41.159
 prbnfs.massopen.cloud.                    120   A     128.197.41.106
-promtest.massopen.cloud.                  120   A     129.10.5.137
-grafana.promtest.massopen.cloud.          120   CNAME promtest.massopen.cloud.
 prom.promtest.massopen.cloud.             0     CNAME promtest.massopen.cloud.
-thanos.promtest.massopen.cloud.           0     CNAME promtest.massopen.cloud.
-px.massopen.cloud.                        120   A     128.197.41.215
-px.massopen.cloud.                        120   A     128.197.41.216
-px.massopen.cloud.                        120   A     128.197.41.219
+promtest.massopen.cloud.                  120   A     129.10.5.137
+provisioner.cnv.massopen.cloud.           120   A     192.12.185.103
 px1.massopen.cloud.                       120   A     128.197.41.215
 px2.massopen.cloud.                       120   A     128.197.41.216
 px3.massopen.cloud.                       120   A     128.197.41.219
+px.massopen.cloud.                        120   A     128.197.41.215
+px.massopen.cloud.                        120   A     128.197.41.216
+px.massopen.cloud.                        120   A     128.197.41.219
 rcephdata.massopen.cloud.                 120   A     129.10.5.134
 recdns1.massopen.cloud.                   120   A     128.31.24.11
 recdns2.massopen.cloud.                   120   A     128.31.24.12
@@ -149,12 +148,12 @@ repos.massopen.cloud.                     120   CNAME mochat.infra.massopen.clou
 reset.massopen.cloud.                     120   A     129.10.5.121
 rubicone-foreman.massopen.cloud.          120   A     129.10.5.144
 rz.massopen.cloud.                        120   CNAME rz.infra.massopen.cloud.
-spf.massopen.cloud.                       120   TXT   "v=spf1 ip4:209.85.192.0/19 ip4:34.204.145.35 ip4:104.47.32.0/19 ip6:2a01:110::/31 ip4:128.197.228.0/24 ip4:18.7.68.32/29 ip4:216.32.180.0/22 ip4:209.85.128.0/17 ip4:40.107.64.0/19 ip4:129.10.116.0/24 include:spfa.massopen.cloud ~all"
 spfa.massopen.cloud.                      120   TXT   "v=spf1 ip4:207.46.0.0/16 ip4:128.30.0.0/16 ip4:18.9.25.12/30 ip4:129.10.5.117 ip4:216.71.128.0/19 ip4:68.232.128.0/19 ip6:2607:f8b0:4864:20::329 ip4:18.4.70.0/24 ip6:2a01:111:f400:fe49::700 ip6:2607:4000:200:14::34 include:spfb.massopen.cloud ~all"
 spfb.massopen.cloud.                      120   TXT   "v=spf1 ip4:104.47.64.0/19 ip4:52.100.128.0/19 ip6:2607:f8b0:4864:20::d32 ~all"
-sso.massopen.cloud.                       120   A     128.31.28.13
+spf.massopen.cloud.                       120   TXT   "v=spf1 ip4:209.85.192.0/19 ip4:34.204.145.35 ip4:104.47.32.0/19 ip6:2a01:110::/31 ip4:128.197.228.0/24 ip4:18.7.68.32/29 ip4:216.32.180.0/22 ip4:209.85.128.0/17 ip4:40.107.64.0/19 ip4:129.10.116.0/24 include:spfa.massopen.cloud ~all"
 sso1.massopen.cloud.                      120   A     128.31.28.11
 sso2.massopen.cloud.                      120   A     128.31.28.12
+sso.massopen.cloud.                       120   A     128.31.28.13
 stagehat.massopen.cloud.                  120   A     128.31.28.15
 staging3.massopen.cloud.                  120   A     35.209.35.11
 staging4.massopen.cloud.                  120   A     35.209.35.11
@@ -164,15 +163,16 @@ support.massopen.cloud.                   0     CNAME osticket.massopen.cloud.
 test.massopen.cloud.                      86400 NS    ns1.osh.massopen.cloud.
 test.massopen.cloud.                      86400 NS    ns2.osh.massopen.cloud.
 teststack.massopen.cloud.                 120   A     128.31.28.2
+thanos.promtest.massopen.cloud.           0     CNAME promtest.massopen.cloud.
 theshift.massopen.cloud.                  120   A     129.10.5.130
 tld.massopen.cloud.                       120   A     129.10.5.115
 trans.massopen.cloud.                     120   A     129.10.5.253
-whitelist.massopen.cloud.                 120   A     34.204.145.35
-whitelist.massopen.cloud.                 120   A     84.40.112.14
 whitelist.massopen.cloud.                 120   A     108.20.79.221
 whitelist.massopen.cloud.                 120   A     128.197.43.23
-wl.massopen.cloud.                        120   MX    10 wl.massopen.cloud.
+whitelist.massopen.cloud.                 120   A     34.204.145.35
+whitelist.massopen.cloud.                 120   A     84.40.112.14
 wl.massopen.cloud.                        120   A     129.10.5.114
+wl.massopen.cloud.                        120   MX    10 wl.massopen.cloud.
 www.massopen.cloud.                       0     CNAME massopen.cloud.
 zabbix.massopen.cloud.                    120   A     128.31.28.9
 zabbix.massopen.cloud.                    120   A     129.10.5.132
