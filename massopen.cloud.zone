@@ -78,14 +78,14 @@ infra.massopen.cloud.                     86400 NS    freeipa.infra.massopen.clo
 infra.massopen.cloud.                     86400 NS    freeipa2.infra.massopen.cloud.
 freeipa.infra.massopen.cloud.             120   A     129.10.5.116
 freeipa2.infra.massopen.cloud.            120   A     128.31.28.14
-k.massopen.cloud.                         120   A     129.10.5.100
+k.massopen.cloud.                         120   CNAME kaizen.massopen.cloud.
 kaizen.massopen.cloud.                    120   A     129.10.5.100
 kaizenbm.massopen.cloud.                  120   A     129.10.5.4
 kaizenold.massopen.cloud.                 120   A     129.10.5.50
 kumo-h.massopen.cloud.                    0     CNAME kumo-hil-client.massopen.cloud.
 kumo-hil-client.massopen.cloud.           120   A     192.12.185.251
 kumo-ipmi-gw.massopen.cloud.              120   A     192.12.185.252
-kzn.massopen.cloud.                       120   A     129.10.5.100
+kzn.massopen.cloud.                       120   CNAME kaizen.massopen.cloud.
 kzn-e.massopen.cloud.                     120   A     192.12.185.254
 kzn-h.massopen.cloud.                     120   A     129.10.5.48
 kzn-hil.massopen.cloud.                   120   A     129.10.5.127
