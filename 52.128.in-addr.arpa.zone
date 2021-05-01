@@ -1,0 +1,12 @@
+$ORIGIN 52.128.in-addr.arpa.
+
+@ 3600 IN SOA ns1.massopen.cloud mocops-list.bu.edu 2021050101 86400 3600 3600000 3600
+@ 3600 IN NS ns1.massopen.cloud
+@ 3600 IN NS ns2.massopen.cloud
+142.62 0 IN PTR e1-natgw.massopen.cloud.
+147.62 0 IN PTR e1-s.massopen.cloud.
+192.62 0 IN PTR e1-nagios.massopen.cloud.
+210.62 0 IN PTR e1-ssh.massopen.cloud.
+11.63 0 IN PTR engage1.massopen.cloud.
+ns1.massopen.cloud 3600 IN A 34.204.145.35
+ns2.massopen.cloud 3600 IN A 129.10.5.41

@@ -1,0 +1,27 @@
+$ORIGIN 31.128.in-addr.arpa.
+
+@ 3600 IN SOA ns1.massopen.cloud mocops-list.bu.edu 2021050101 86400 3600 3600000 3600
+@ 3600 IN NS ns1.massopen.cloud
+@ 3600 IN NS ns2.massopen.cloud
+14.20 0 IN PTR e1-swift.massopen.cloud.
+16.20 0 IN PTR e1-swift.massopen.cloud.
+11.24 0 IN PTR recdns1.massopen.cloud.
+12.24 0 IN PTR recdns2.massopen.cloud.
+15.24 0 IN PTR kznrgw1.massopen.cloud.
+16.24 0 IN PTR kznrgw2.massopen.cloud.
+18.24 0 IN PTR kzn-swift.massopen.cloud.
+19.24 0 IN PTR ns1.osh.massopen.cloud.
+216.24 0 IN PTR openshift.massopen.cloud.
+9.25 0 IN PTR hotcrp.massopen.cloud.
+86.27 0 IN PTR kznwin.massopen.cloud.
+10.28 0 IN PTR i2.massopen.cloud.
+11.28 0 IN PTR sso1.massopen.cloud.
+12.28 0 IN PTR sso2.massopen.cloud.
+13.28 0 IN PTR sso.massopen.cloud.
+14.28 0 IN PTR freeipa2.infra.massopen.cloud.
+15.28 0 IN PTR stagehat.massopen.cloud.
+16.28 0 IN PTR maas.massopen.cloud.
+2.28 0 IN PTR teststack.massopen.cloud.
+9.28 0 IN PTR zabbix.massopen.cloud.
+ns1.massopen.cloud 3600 IN A 34.204.145.35
+ns2.massopen.cloud 3600 IN A 129.10.5.41
