@@ -60,9 +60,9 @@ esi-controller-1.massopen.cloud.          120   A     129.10.5.142
 esi-controller-2.massopen.cloud.          120   A     129.10.5.143
 esi-undercloud.massopen.cloud.            120   A     129.10.5.140
 esivirt.massopen.cloud.                   120   A     129.10.5.145
-freeipa2.infra.massopen.cloud.            120   A     128.31.28.14
+freeipa2.infra.massopen.cloud.            120   CNAME freeipa2.massopen.cloud
 freeipa2.massopen.cloud.                  120   A     128.31.28.14
-freeipa.infra.massopen.cloud.             120   A     129.10.5.116
+freeipa.infra.massopen.cloud.             120   CNAME freeipa.massopen.cloud
 freeipa.massopen.cloud.                   120   A     129.10.5.116
 freenas.massopen.cloud.                   120   A     10.192.0.18
 _github-challenge-cci-moc.massopen.cloud. 120   TXT   "68ee7d8f37"
@@ -78,8 +78,8 @@ i2.massopen.cloud.                        120   A     128.31.28.10
 i.massopen.cloud.                         120   A     128.31.28.10
 i.massopen.cloud.                         120   A     129.10.5.105
 info.massopen.cloud.                      0     CNAME massopen.cloud.
-infra.massopen.cloud.                     86400 NS    freeipa2.infra.massopen.cloud.
-infra.massopen.cloud.                     86400 NS    freeipa.infra.massopen.cloud.
+infra.massopen.cloud.                     86400 NS    freeipa2.massopen.cloud.
+infra.massopen.cloud.                     86400 NS    freeipa.massopen.cloud.
 kaizenbm.massopen.cloud.                  120   A     129.10.5.4
 kaizen.massopen.cloud.                    120   A     129.10.5.100
 kaizenold.massopen.cloud.                 120   A     129.10.5.50

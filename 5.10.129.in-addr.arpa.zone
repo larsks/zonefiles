@@ -1,6 +1,6 @@
 $ORIGIN 5.10.129.in-addr.arpa.
 
-@ 3600 IN SOA ns1.massopen.cloud mocops-list.bu.edu 2021043000 86400 3600 3600000 3600
+@ 3600 IN SOA ns1.massopen.cloud mocops-list.bu.edu 2021050101 86400 3600 3600000 3600
 @ 3600 IN NS ns1.massopen.cloud
 @ 3600 IN NS ns2.massopen.cloud
 100 0 IN PTR kaizen.massopen.cloud.
@@ -8,7 +8,7 @@ $ORIGIN 5.10.129.in-addr.arpa.
 102 0 IN PTR ov2.massopen.cloud.
 103 0 IN PTR ov3.massopen.cloud.
 104 0 IN PTR ovirt.massopen.cloud.
-105 0 IN PTR i.massopen.cloud.
+105 0 IN PTR i1.massopen.cloud.
 106 0 IN PTR kzn-rtr.massopen.cloud.
 107 0 IN PTR kzn-ssh.massopen.cloud.
 108 0 IN PTR mochat.massopen.cloud.
